@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+
+<meta charset="UTF-8">
+<title>Investigation Record</title>
+
+<style>
+
+body{
+    background:#050505;
+    color:#00ff66;
+    font-family:Consolas, monospace;
+    padding:40px;
+    line-height:1.8;
+}
+
+.container{
+    max-width:800px;
+    margin:auto;
+    border:1px solid #00ff66;
+    padding:30px;
+    box-shadow:0 0 15px #00ff66;
+}
+
+h1{
+    text-align:center;
+}
+
+.record{
+    background:#111;
+    padding:20px;
+    margin-top:20px;
+}
+
+details{
+    margin-top:30px;
+    border:1px solid #00ff66;
+    padding:15px;
+    cursor:pointer;
+}
+
+summary{
+    font-size:18px;
+    color:#00ff99;
+}
+
+.answer{
+    margin-top:20px;
+    color:white;
+}
+
+</style>
+
+</head>
+
+
+<body>
+
+
+<div class="container">
+
+<h1>
+ARCHIVE RECORD #001
+</h1>
+
+
+<div class="record">
+
+<h2>失踪した調査員の日記</h2>
+
+
+<p>
+調査員が残した最後の日記の一部が発見された。
+</p>
+
+
+<p>
+以下の日付には何か意味が隠されているようだ。
+</p>
+
+
+<hr>
+
+
+<p>
+4月1日<br>
+4月20日<br>
+1月15日<br>
+13月15日<br>
+9月9日<br>
+</p>
+
+
+<p>
+調査員の最後のメッセージを解読せよ。
+</p>
+
+
+</div>
+
+
+
+<details>
+
+<summary>
+▶ 解説を見る
+</summary>
+
+
+<div class="answer">
+
+<h3>解説</h3>
+
+<p>
+まず、日付の「日」の数字だけを抜き出す。
+</p>
+
+<p>
+1<br>
+20<br>
+15<br>
+15<br>
+9
+</p>
+
+<p>
+これをアルファベット順に変換すると、
+</p>
+
+<p>
+1 = A<br>
+20 = T<br>
+15 = O<br>
+15 = O？<br>
+9 = I
+</p>
+
+<p>
+となる。
+</p>
+
+<p>
+しかし、ここで違和感が生まれる。
+</p>
+
+<p>
+日記には、
+</p>
+
+<h4>「月だけを見るな。」</h4>
+
+<p>
+という文章が残されていた。
+</p>
+
+<p>
+さらに、日付の中には存在しない
+<strong>「13月15日」</strong>
+という表記がある。
+</p>
+
+<p>
+13月は存在しない。
+つまり、この異常な日付こそが
+<strong>「月の数字も使え」</strong>
+というヒントになる。
+</p>
+
+<hr>
+
+<p>
+日付をもう一度確認する。
+</p>
+
+<p>
+4月1日<br>
+4月20日<br>
+1月15日<br>
+13月15日<br>
+9月9日
+</p>
+
+<p>
+月の数字だけを見ると、
+</p>
+
+<p>
+4<br>
+4<br>
+1<br>
+13<br>
+9
+</p>
+
+<p>
+となるが、これだけでは意味を持たない。
+</p>
+
+<p>
+そこで、
+<strong>日付（月・日）のどちらの数字を読むべきか</strong>
+を考える。
+</p>
+
+<p>
+基本的には「日」を読む。
+しかし、存在しない「13月15日」だけは例外となり、
+「月」の数字を読む。
+</p>
+
+<hr>
+
+<p>
+最終的に、
+</p>
+
+<p>
+4月1日 → 日を見る → 1 = A<br>
+4月20日 → 日を見る → 20 = T<br>
+1月15日 → 日を見る → 15 = O<br>
+13月15日 → 月を見る → 13 = M<br>
+9月9日 → 日を見る → 9 = I
+</p>
+
+<p>
+となる。
+</p>
+
+<h2>
+A T O M I
+</h2>
+
+<p>
+よって、導き出される答えは
+<strong>「ATOMI」</strong>
+である。
+</p>
+
+</div>
+
+</body>
+
+</html>
